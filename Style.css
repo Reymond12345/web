@@ -23,6 +23,11 @@
     src: url(Fonts/Roboto-Medium.ttf)
 }
 
+@font-face{
+    font-family: 'Roboto-Black';
+    src: url(Fonts/Roboto-Black.ttf)
+}
+
 .box {
   position: fixed;
   color: white;
@@ -37,7 +42,6 @@
 
 .ctext1 {
   color: white;
-
 }
 
 .title {
@@ -86,39 +90,44 @@
     height: 30px;
     width: auto;
     top: 475px;
+    left: 675px;
 }
 
 #logo3{
     height: 30px;
     width: auto;
     top: 475px;
-    left: 250px;
+    left: 725px;
 }
 
 #logo4{
     height: 30px;
     width: auto;
     top: 475px;
-    left: 300px;
+    left: 775px;
 }
 
-#pic1{
-    height: 600px;
+#pic1 {
+    position: fixed;
+    background-color: grey;
+    height: 500px;
     width: auto;
-    top: 100px;
-    left: 600px;
+    top: 170px;
+    left: 200px;
+    border-radius: 5%;
 }
+
 
 #boxTit{
     position: fixed;
     top: 120px;
-    left: 200px;
+    left: 675px;
     color:white;
 }
 
 #text1 {
     font-family: 'Roboto-Light';
-    font-weight: 550;
+    font-weight: 575;
     font-size: 30px;
     color: grey;
     text-align: left;
@@ -137,19 +146,30 @@
     font-size: 16px;
 }
 
+#text4 {
+    font-family: 'Roboto-Black';
+    font-weight: 400;
+    font-size: 35px;
+}
+
 #box1 {
-    top: 180px;
-    left: 1150px;
+    top: 190px;
+    left: 1300px;
 }
 
 #box2 {
   top: 230px;
-  left: 1150px;
+  left: 1300px;
 }
 
 #box3 {
     top: 360px;
-    left: 1150px;
+    left: 1300px;
+}
+
+#box4 {
+    top: 620px;
+    left: 290px;
 }
 
 #line1{
